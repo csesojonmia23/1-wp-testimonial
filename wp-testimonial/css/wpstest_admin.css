@@ -1,0 +1,69 @@
+.wpstest_wrap{
+     max-width: 1100px;
+     width: 90%;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     box-sizing: border-box;
+}
+.common_styling{
+     background-color: #fff;
+     border-radius: 5px;
+     border: 1px solid #ddd;
+     padding: 20px 25px;
+}
+.common_styling h3{
+     font-size: 23px;
+     font-weight: 400;
+     display: block;
+     margin-bottom: 20px;
+     margin-top: 5px;
+}
+.testimonial_section_styling{
+     flex-basis: 65%;
+     margin-right: 5%;
+}
+.testimonial_section_styling label{
+     display: block;
+     font-weight: bold;
+     font-size: 16px;
+     margin-bottom: 10px;
+}
+.testimonial_section_styling input[type="color"]{
+     width: 100px;
+     height: 50px;
+     display: block;
+     font-weight: bold;
+     font-size: 14px;
+     border: 1px solid #ddd;
+     box-shadow: 0 0 10px #ddd;
+     padding: 5px;
+     cursor: pointer;
+}
+.testimonial_section_styling input[type="submit"]{
+     margin-top: -20px;
+     padding: 5px 10px;
+}
+.author_info{
+     flex-basis: 30%;
+     text-align: center;
+}
+.author_info .myimg{
+     border-radius: 50%;
+     width: 90px;
+     height: 90px;
+     border: 5px solid #333;
+     margin-bottom: 10px;
+}
+.author_info .contact{
+     margin: 0;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+.author_info p{
+     margin: 0;
+     text-align: left;
+}
+.author_info .sojon_id{
+     margin-bottom: 8px;
+}
